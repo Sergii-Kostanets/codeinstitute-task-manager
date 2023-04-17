@@ -1,3 +1,27 @@
+Instead
+```pip3 install Flask-SQLAlchemy psycopg2```
+
+Use this
+```pip3 install 'Flask-SQLAlchemy<3' psycopg2 sqlalchemy==1.4.46```
+
+psycopg2-binary==2.8
+
+Better this
+```pip3 install 'Flask-SQLAlchemy<3' psycopg2-binary sqlalchemy==1.4.46```
+
+To run an app:
+```python3 run.py```
+
+Instead ```psql```:
+```psql -h localhost -p 5432 -U postgres -W -d postgres```
+password: ```h******d!```
+
+`python3`
+`from taskmanager import db`
+`db.create_all()`
+
+```set_pg```
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Sergii-Kostanets,
