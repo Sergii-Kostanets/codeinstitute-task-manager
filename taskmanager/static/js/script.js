@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var datepicker = document.querySelectorAll('.datepicker');
     M.Datepicker.init(datepicker, {
         format: 'yyyy-mm-dd',
+        autoClose: true,
         i18n: {
             done: 'Select'
         }
@@ -17,4 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // select initialization
     let selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
+    // collapsible initialization
+    
+    let collapsibles = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsibles);
 });
