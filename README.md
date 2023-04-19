@@ -28,7 +28,7 @@ Before deploy:
 ```echo 'web: python run.py' > Procfile```
 delete blank line
 
-
+[Deployment](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DB101+2021_T1/courseware/c0c31790fcf540539fd2bd3678b12406/6e44128b0b37416ab40c1a87ef2cb32a/?child=first)
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
