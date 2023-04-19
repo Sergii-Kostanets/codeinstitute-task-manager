@@ -22,6 +22,14 @@ password: ```h******d!```
 
 ```set_pg```
 
+Before deploy:
+```pip freeze --local > requirements.txt```
+
+```echo 'web: python run.py' > Procfile```
+delete blank line
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Sergii-Kostanets,
